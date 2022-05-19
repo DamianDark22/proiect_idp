@@ -55,7 +55,7 @@ public class DonationController {
         }
     }
 
-    @PutMapping("donation/bid")
+    @PutMapping("donation/accept")
     public ResponseEntity acceptDonation(@RequestParam() String donationId, @RequestParam() String userId, HttpServletRequest request) {
         try {
             String token = request.getHeader("Authorization");

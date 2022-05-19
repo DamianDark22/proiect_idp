@@ -22,12 +22,9 @@ public class UserService {
 
     private static final Logger logger = LoggerFactory.getLogger(UserService.class);
 
-    private UserService userService;
-
     private UserRepository userRepository;
 
-    public UserService(UserService userService, UserRepository userRepository) {
-        this.userService = userService;
+    public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
 
