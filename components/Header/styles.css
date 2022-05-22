@@ -1,0 +1,34 @@
+.header {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+}
+
+.header-top {
+    background-color: blue;
+    height: 70px;
+    width: 100%;
+}
+.spacer {
+    height: 10px;
+}
+
+.icon {
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: calc(50% + 50px)
+}
+
+.header-bottom {
+    background-color: yellow;
+    height: 70px;
+    width: 100%;
+    border-bottom-color: grey;
+    border-bottom-width: 10px;
+}
