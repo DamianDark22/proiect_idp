@@ -1,0 +1,19 @@
+_format_version: "2.1"
+
+services:
+  - name: frontend-service
+    url: http://frontend:3000/#/account
+    routes:
+      - name: frontend-route
+        paths: 
+          - /frontend
+
+  - name: backend-service
+    url: http://backend:8080/donations
+    routes:
+      - name: backend-route
+        paths: 
+          - /backend
+
+plugins:
+  - name: prometheus
