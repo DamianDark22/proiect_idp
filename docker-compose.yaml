@@ -31,7 +31,7 @@ services:
   donation:
     container_name: "backend"
     command: "java -jar ./target/DonationAdver-0.0.1-SNAPSHOT.jar"
-    build: ./proiect_idp-main
+    image: be
     ports:
      - 8080:8080
     networks:
@@ -39,7 +39,7 @@ services:
 
   frontend:
     container_name: "frontend"
-    build: ./proiect_idp-master
+    image: fe
     ports:
      - 3000:3000
     networks:
