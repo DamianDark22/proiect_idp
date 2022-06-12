@@ -37,7 +37,7 @@ jobs:
       
         
       - name: swarm compose
-        run: docker stack deploy --compose-file docker-compose.yml  vossibility 
+        run: docker stack deploy --compose-file docker-compose.yaml  vossibility 
         
         
         
