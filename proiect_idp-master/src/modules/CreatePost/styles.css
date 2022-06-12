@@ -1,0 +1,32 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 90%;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.inputs-container {
+   width: 100%;
+   padding: 25px;
+}
+
+.container-title {
+    font-size: 26px;
+}
+
+.container-input {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.form-input {
+    width: 100%;
+}
+
+.container-button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}

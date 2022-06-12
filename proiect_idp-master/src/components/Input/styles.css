@@ -1,0 +1,34 @@
+.input-container {
+    margin-top: 10px;
+}
+
+.input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #EEE8E8;
+    border-bottom-color: #E5EA00;
+    margin-top: 5px;
+    min-width: 295px;
+    height: 35px;
+    outline: none;
+}
+
+.input-label {
+    display: flex;
+}
+
+.input-required {
+    color: red;
+    margin-left: 4px;
+}
+
+.input-error {
+    color: red;
+    font-size: 12px;
+}
+
+.input-checkbox {
+    display: flex;
+    margin-top: 10px;
+}

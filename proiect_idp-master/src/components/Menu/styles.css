@@ -1,0 +1,55 @@
+.menu {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    border-right-width: 10px;
+    border-right-color: grey;
+}
+
+.menu-item {
+   margin: 20px;
+   margin-bottom: 35px;
+}
+
+.menu-item-button {
+    border-radius: 20px;
+}
+
+.menu-item-button-logout {
+    border-radius: 20px;
+    background-color: #D33E43;
+}
+
+
+.logo {
+    height: 150px;
+    background-color: white;
+    border-bottom-color: grey;
+    border-bottom-width: 10px;
+}
+
+/* Profile picture styles */
+.profile {
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom-color: grey;
+    border-bottom-width: 10px;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    background-color: #0066FF;
+    border-radius: 50px;
+}
+
+.profile-name {
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+}
